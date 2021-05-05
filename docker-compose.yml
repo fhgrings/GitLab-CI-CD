@@ -1,0 +1,14 @@
+version: "3.6"
+services:
+  gitlab:
+    container_name: gitlab
+    hostname: '172.17.0.1'
+    image: gitlab/gitlab-ce:13.11.3-ce.0
+    ports:
+      - "22:22"
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./volumes/data:/var/opt/gitlab
+      - ./volumes/logs:/var/log/gitlab
+      - ./volumes/config:/etc/gitlab
