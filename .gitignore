@@ -1,0 +1,12 @@
+.DS_Store
+
+Monitoring/node_modules
+
+Monitoring/lib/core/metadata.js
+Monitoring/lib/core/MetadataBlog.js
+
+Monitoring/website/translated_docs
+Monitoring/website/build/
+Monitoring/website/yarn.lock
+Monitoring/website/node_modules
+Monitoring/website/i18n/*
