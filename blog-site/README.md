@@ -1,10 +1,10 @@
-##Blog Example
+## Blog Example
 
-###After deploy 
+### After deploy 
 
 Access at grings-blog.surge.sh
 
-###Remember:
+### Remember:
 
 export SURGE_LOING=me@example.com
 
